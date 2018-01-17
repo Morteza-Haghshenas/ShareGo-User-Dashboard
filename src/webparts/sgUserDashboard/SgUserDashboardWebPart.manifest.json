@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "d480270a-d34c-47fb-a43e-a8c062f73296",
+  "alias": "SgUserDashboardWebPart",
+  "componentType": "WebPart",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "d480270a-d34c-47fb-a43e-a8c062f73296",
+    "group": { "default": "ShareGo" },
+    "title": { "default": "Just Links" },
+    "description": { "default": "Display & manage your promoted link lists.", "de-de": "Platzieren und verwalten Sie Ihre höhergestuften Linklisten." },
+    "officeFabricIconFontName": "ThumbnailView",
+    "properties": {
+    }
+  }]
+}

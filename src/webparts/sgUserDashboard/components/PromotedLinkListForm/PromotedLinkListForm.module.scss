@@ -1,0 +1,13 @@
+.linkListForm {
+    padding: 0px;
+    
+    .addButtonCell {
+      display: table-cell;
+
+      .addButton {
+        margin-left: 10px;
+        white-space: nowrap;
+        height: 32px;
+      }
+    }
+}

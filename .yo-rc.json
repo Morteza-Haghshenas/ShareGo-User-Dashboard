@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "user-dashboard",
+    "framework": "react",
+    "version": "1.0.0",
+    "libraryId": "2404ccc0-5513-4d16-8ad3-66199133056c"
+  }
+}

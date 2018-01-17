@@ -1,0 +1,91 @@
+@import "~office-ui-fabric-react/dist/sass/Fabric.Common";
+
+.itemDeleted {
+  display: none;
+}
+
+.itemTileRoot {
+  //border: 1px $ms-color-neutralTertiaryAlt solid;
+  width: 160px;
+  height: 160px;
+  margin: 0px 18px 18px 0px;
+  float: left;
+
+  .itemTileContent {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    margin-bottom:10px;
+    background-color:$ms-color-neutralTertiaryAlt;
+  }
+
+  .itemTitle, .itemDescription {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    transition: .3s all;    
+    top: calc(100% - 35px);
+    line-height: 18px;
+  }
+
+  .itemTitle {
+    padding: 7px 0px;
+    background: rgba(255, 255, 255, 0.85);
+    font-weight:bold;
+  }
+
+  .itemDescription {
+    padding-top: 35px;
+  }
+
+  .itemTileContent:hover .itemTitle {
+    top: 0;
+    line-height: 50px;
+  }
+
+  .itemTileContent:hover .itemDescription {
+    top:30px;
+  }
+
+  .buttonContainer {
+    position: absolute;
+    height: 32px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+
+  .deleteButton {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    &:hover, &:focus {
+      color: $ms-color-themePrimary;
+    }
+  }
+
+  .editButton {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 0px !important;
+    &:hover, &:focus {
+      color: $ms-color-themePrimary;
+    }
+  }
+
+  .addButton {
+    height: 100%;
+    width: 100%;
+    &:hover, &:focus {
+      color: $ms-color-themePrimary;
+    }
+  }
+}

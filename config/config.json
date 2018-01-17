@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/sgUserDashboard/SgUserDashboardWebPart.js",
+      "manifest": "./src/webparts/sgUserDashboard/SgUserDashboardWebPart.manifest.json",
+      "outputPath": "./dist/just-links.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "JustLinksStrings": "webparts/sgUserDashboard/loc/{locale}.js"
+  }
+}

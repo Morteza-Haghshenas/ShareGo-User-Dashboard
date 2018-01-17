@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "Just Links",
+    "id": "2404ccc0-5513-4d16-8ad3-66199133056c",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/just-links.sppkg"
+  }
+}

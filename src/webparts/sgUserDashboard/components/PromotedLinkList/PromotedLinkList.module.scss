@@ -1,0 +1,30 @@
+@import "~office-ui-fabric-react/dist/sass/Fabric.Common";
+
+.promotedLinkListContainer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.promotedLinkListHeader {
+    position: relative;
+}
+
+.promotedLinkListTitle {
+    display: inline-block;
+}
+
+.promotedLinkListDescription {
+    margin-top: 0px;
+}
+
+.topRowEditLink {
+    position: absolute;
+    right: 0px;
+    margin-top: 16px;
+}
+
+.promotedLinkList {
+    padding-top: 20px;
+    border-top: 1px $ms-color-neutralTertiaryAlt solid;
+}
